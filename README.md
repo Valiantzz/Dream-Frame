@@ -43,4 +43,4 @@ Install with the [setup](https://github.com/rauenzi/BetterDiscordApp/releases/do
 Install with the [setup](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.1/BandagedBD_Mac.zip) and make sure that Discord has BetterDiscord settings. [Download](https://cdn.discordapp.com/attachments/528696134118539267/528696159821234179/DreamFrame.theme.css) Dream Frame next, go to the theme settings in Discord and Open Themes folder. Put Dream Frame in Themes folder and it should pop up automatically, reloading Discord is no longer required in BetterDiscord after adding a theme or plugin.
 * Linux -
 Follow these instructions to install BetterDiscord. Make sure that `git` and `asar` is installed on Linux. After installing BetterDiscord, go to `/home/.config/BetterDiscord/themes/` and put [this](https://cdn.discordapp.com/attachments/528696134118539267/528696159821234179/DreamFrame.theme.css) in there.
- 
+  
