@@ -1,5 +1,5 @@
-@import url("https://raw.githack.com/KorbsEditor/Dream-Frame/master/others/ProfileBackgrounds.css");
-@import url("https://raw.githack.com/KorbsEditor/Dream-Frame/master/others/Fallback.theme.css");
+@import url("https://raw.githack.com/dream-frame/Covers/master/ProfileBackgrounds.css");
+@import url("https://raw.githack.com/dream-frame/Fallback-System/master/Fallback.theme.css");
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 
 /* - */
@@ -595,6 +595,22 @@ color: white;
 /* - */
 /* Activity */
 /* - */
+.image-33JSyf.pc-image.large-3ChYtB.pc-large.mask-3OgeRz.pc-mask.headerAvatarMask-q3VmqZ.pc-headerAvatarMask {
+  height: 30px;
+  width: 30px;
+}
+.image-33JSyf.pc-image.large-3ChYtB.pc-large.mask-3OgeRz.pc-mask.avatar-_-TGPX.pc-avatar.avatarMask-2Mo_pM.pc-avatarMask {
+  width: 21px;
+  height: 21px;
+}
+.image-33JSyf.da-image.large-3ChYtB.da-large.mask-3OgeRz.da-mask.headerAvatarMask-q3VmqZ.da-headerAvatarMask {
+  height: 30px;
+  width: 30px;
+}
+.image-33JSyf.da-image.large-3ChYtB.da-large.mask-3OgeRz.da-mask.avatar-_-TGPX.da-avatar.avatarMask-2Mo_pM.da-avatarMask {
+  width: 21px;
+  height: 21px;
+}
 /* Backgrounds */
 .theme-dark .activityFeed-1C0EmJ {
   background-color: transparent;
@@ -1449,11 +1465,10 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
     width: 8px;
 }
 
-.children-Bmpf2Q.pc-children {
-    visibility: hidden;
-}
-.children-Bmpf2Q.da-children {
-    visibility: hidden;
+
+.actionIcon-2Hi9ZG {
+  opacity: 1;
+  visibility: hidden;
 }
 
 /* Category Drop Down Arrow */
