@@ -1429,12 +1429,14 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 .colorConnectedText-1c_uzY, .colorDefaultText-oas-QM, .colorHoveredText-OZnAgu, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb {
   color: transparent;
 }
-.unread-1Dp-OI {
-  background-color: white;
-  border-radius: 50px;
-  height: 10px;
-  left: 18px;
-  width: 10px;
+.unread-3zKkbm {
+  border-radius: 5px;
+  height: 8px;
+  left: 212px;
+  margin-top: -4px;
+  position: absolute;
+  top: 50%;
+  width: 8px;
 }
 
 .read-3zKkbm {
