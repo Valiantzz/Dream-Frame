@@ -2,9 +2,9 @@
 ![image](https://i.imgur.com/WGv32qu.jpg)
 Bring a sexy translucent look to Discord with customizable options! BetterDiscord theme.
 # Downloads
-* Link: https://korbsstudio.com/Discord-Mods/themes/dream-frame.html
-* Demo: https://KorbsStudio.com/projects/DreamFrame.html
+* Link: https://dream-frame.github.io/Website/
 # Helpful Links
+* How to install Powercord: https://github.com/powercord-org/powercord/wiki/Installation
 * How to install BetterDiscord: https://github.com/rauenzi/BetterDiscordApp#installation
 * How to install BeautifulDiscord: https://github.com/leovoel/BeautifulDiscord#installing
 # Donation
@@ -20,6 +20,7 @@ The following is offered as of now:
 * Background blur
 * Background opacity
 * Background scaling
+* Background Rotation
 * Emoji menu height
 * Emoji size
 * Home icon
@@ -29,18 +30,8 @@ The following is offered as of now:
 * Font, font size
 * Border radius options
 * Custom background for your own profile
-* Server indicator colors
+* Server indicator color
 * Titlebar icons(Windows)
 * Titlebar button colors(macOS)
 
 More is to come! 
-
-# Installing 
-## BetterDiscord
-* Windows -
-Install with the [setup](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.1/BandagedBD_Windows.exe) and make sure that Discord has BetterDiscord settings. [Download](https://cdn.discordapp.com/attachments/528696134118539267/528696159821234179/DreamFrame.theme.css) Dream Frame next, go to the theme settings in Discord and Open Themes folder. Put Dream Frame in Themes folder and it should pop up automatically, reloading Discord is no longer required in BetterDiscord after adding a theme or plugin. 
-* macOS -
-Install with the [setup](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.1/BandagedBD_Mac.zip) and make sure that Discord has BetterDiscord settings. [Download](https://cdn.discordapp.com/attachments/528696134118539267/528696159821234179/DreamFrame.theme.css) Dream Frame next, go to the theme settings in Discord and Open Themes folder. Put Dream Frame in Themes folder and it should pop up automatically, reloading Discord is no longer required in BetterDiscord after adding a theme or plugin.
-* Linux -
-Follow these instructions to install BetterDiscord. Make sure that `git` and `asar` is installed on Linux. After installing BetterDiscord, go to `/home/.config/BetterDiscord/themes/` and put [this](https://cdn.discordapp.com/attachments/528696134118539267/528696159821234179/DreamFrame.theme.css) in there.
-  
