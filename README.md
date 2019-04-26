@@ -3,6 +3,7 @@
 Bring a sexy translucent look to Discord with customizable options! BetterDiscord theme.
 # Downloads
 * Link: https://dream-frame.github.io/Website/
+* For Powercord: https://github.com/dream-frame/Dream-Frame/raw/master/Dream%20Frame%20for%20Powercord.zip
 # Helpful Links
 * How to install Powercord: https://github.com/powercord-org/powercord/wiki/Installation
 * How to install BetterDiscord: https://github.com/rauenzi/BetterDiscordApp#installation
