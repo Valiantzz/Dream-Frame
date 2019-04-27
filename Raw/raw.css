@@ -312,6 +312,15 @@ filter: 0%;
 .winButton-iRh8-Z svg { /* To hide default titlebar icons */
   opacity: var(--defaulttb);
 }
+/* Linux Titlebar - Should be used if transparency is on and system titlebar goes missing */
+.platform-linux::before {
+  content: "";
+  width: 100%;
+  background: transparent;
+  height: 14px;
+  -webkit-app-region: drag;
+  position: fixed;
+}
 /* macOS Titlebar Icon Colors */
 .macButtonMaximize-2FMHAO {
   background-color: var(--macOSMax);
@@ -464,6 +473,9 @@ width: 99.5%;
     height: 0px;
     width: 0px;
 }
+.svg-1X37T1, .wrapper-25eVIn {
+  border-radius: 50px !important;
+}
 /* Background */
 .theme-dark .wrapper-1Rf91z {
   background-color: transparent;
@@ -562,6 +574,10 @@ width: 99.5%;
 /* - */
 /* Home */
 /* - */
+.channel-2QD9_O .linkButtonIcon-Mlm5d6 {
+  color: white;
+}
+
 /* Quick Switcher */
 .searchBar-6Kv8R2::before {
   content: "Home ";
@@ -591,10 +607,16 @@ color: white;
 .searchBar-6Kv8R2.da-searchBar {
   margin-top: 11px;
 }
+.searchBar-6Kv8R2.pc-searchBar {
+  margin-top: 11px;
+}
 
 /* - */
 /* Activity */
 /* - */
+.container-1r6BKw.pc-container {
+  height: 70px;
+}
 .image-33JSyf.pc-image.large-3ChYtB.pc-large.mask-3OgeRz.pc-mask.headerAvatarMask-q3VmqZ.pc-headerAvatarMask {
   height: 30px;
   width: 30px;
@@ -615,6 +637,9 @@ color: white;
 .theme-dark .activityFeed-1C0EmJ {
   background-color: transparent;
 }
+.theme-dark .layout-1cQCv2 {
+  background-image: none;
+}
 .theme-dark .container-1r6BKw {
     background: transparent;
 }
@@ -631,6 +656,31 @@ color: white;
 .theme-dark .wrapper-9ppXpy {
   box-shadow: none;
 }
+.theme-dark .outer-2IVh5n {
+  background-color: rgba(0, 0, 0, 0.50);
+}
+.theme-dark .card-3EIh8J.interactive-IxbS32:hover {
+  background-color: rgba(0, 0, 0, 0.60);
+}
+/* Now Playing */
+.theme-dark .separator-2c4hi3 {
+  background-color: transparent;
+}
+.theme-dark .multipleIconWrapper-1PjkRO, .theme-dark .section-2VKIPC {
+  background-color: transparent;
+}
+.theme-dark .inset-GQDQYw {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.theme-dark .popoutContainer-3WC9HR:hover {
+  background-color: transparent;
+}
+/* Recently Played */
+.theme-dark .recentlyPlayedContainer-2F3MqS {
+  background-color: transparent;
+}
+
 /* Quick Launcher */
 .theme-dark .empty-hejAOj {
   background-color: transparent;
@@ -797,6 +847,10 @@ visibility: hidden;
   background: transparent;
   border-bottom: transparent;
 }
+.tabBar-1E2ExX .primary-3j8BhM {
+  background-color: var(--accentcolor) !important;
+  color: var(--accenttext) !important;
+}
 .theme-dark .wrapper-1cBijl {
   background-color: rgba(36,39,43,.2);
   border-color: transparent;
@@ -807,6 +861,9 @@ visibility: hidden;
 /* Header */
 .topPill-30KHOu .separator-gCa7yv {
   width: 0px;
+}
+.item-PXvHYJ {
+  font-size: 15px;
 }
 /* Friends */
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
@@ -1074,7 +1131,27 @@ button.close-18n9bP.da-close.flexChild-faoVW3.da-flexChild.button-38aScr.da-butt
 .theme-dark .container-1r6BKw {
     box-shadow: none;
 }
-
+.title-3qD0b-.pc-title.container-1r6BKw.pc-container {
+    height: 70px;
+}
+.title-3qD0b-.da-title.container-1r6BKw.da-container {
+    height: 70px;
+}
+.theme-dark .modal-3HD5ck {
+  box-shadow: none;
+}
+h4.h4-AQvcAz.title-3sZWYQ.size16-14cGz5.height20-mO2eIN.weightSemiBold-NJexzi.pc-h4.pc-title.pc-size16.pc-height20.pc-weightSemiBold.defaultColor-1_ajX0.pc-defaultColor.defaultMarginh4-2vWMG5.marginReset-236NPn.pc-defaultMarginh4.pc-marginReset {
+  text-align: center;
+}
+.content-38qMG0.pc-content.medium-zmzTW-.size16-14cGz5.height20-mO2eIN.primary-jw0I4K.selectable-x8iAUj.pc-selectable {
+  text-align: center;
+}
+h4.h4-AQvcAz.title-3sZWYQ.size16-14cGz5.height20-mO2eIN.weightSemiBold-NJexzi.da-h4.da-title.da-size16.da-height20.da-weightSemiBold.defaultColor-1_ajX0.da-defaultColor.defaultMarginh4-2vWMG5.marginReset-236NPn.da-defaultMarginh4.da-marginReset {
+  text-align: center;
+}
+.content-38qMG0.da-content.medium-zmzTW-.size16-14cGz5.height20-mO2eIN.primary-jw0I4K.selectable-x8iAUj.da-selectable {
+  text-align: center;
+}
 /* @ Pop Up */
 .theme-dark .messagesPopoutWrap-1MQ1bW {
   background-color: rgba(0,0,0,0.90);
@@ -1347,7 +1424,9 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
   margin-top: 11px;
   margin-bottom: 47px;
 }
-
+.content-3at_AU {
+  border-radius: var(--channelsbr);
+}
 
 
 
@@ -1950,6 +2029,11 @@ img.artworkActionable-10hKry.artwork-1vrmJ_.da-artworkActionable.da-artwork {
   filter: blur(10px) brightness(0.5);
   opacity: 0.7;
 }
+/* Spotify Modal - Add to Playlist */
+.powercord-spotify-playlist {
+    border: none;
+}
+
 /* Settings */
 .theme-dark .powercord-account {
   border: none;
