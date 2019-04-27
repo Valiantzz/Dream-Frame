@@ -4,9 +4,9 @@
 @import url("https://raw.githack.com/dream-frame/Dream-Frame/master/Raw/raw.css");
 :root {
     /* Background */
-    --custombackground: url(https://source.unsplash.com/random); /* Change the background */
+    --custombackground: url(https://cdn.discordapp.com/attachments/430388043594334210/567774100433534986/oc__winter_feelings___my_new_wallpaper___4k_by_total_chuck-dbv5j3k.jpg); /* Change the background */
     --blur: 0px !important; /* Adjust the amount of blur on the background */
-    --opacitybg: 0.5 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
+    --opacitybg: 0.3 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
     --opacityDiscord: 0.7 !important; /* Try removing your custom background and enable Transparency in BandagedBD settings. Also adjust opacitybg to 0 */
     --bgscale: 1; /* 0.3 to 3 */
     --bgrotation: 0deg; /* This option works out for some backgrounds, just in case. */
@@ -55,11 +55,10 @@
     
     /* Server Colors */
     --serverselected: red !important;
-    --serverunread: white !important;
     
     /* Home Icon */
     --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
-    --homeiconsize: 45px;
+    --homeiconsize: 40px;
 
     /* Avatar Sizes in Chat */
     --avatar: 40px !important;
