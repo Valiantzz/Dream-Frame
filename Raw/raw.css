@@ -1427,11 +1427,6 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 .content-3at_AU {
   border-radius: var(--channelsbr);
 }
-
-
-
-
-
 header.header-2o-2hj {
     margin-top: 12px;
 }
@@ -1451,14 +1446,6 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
     border-radius: 5px;
     background-image: white !important;
 }
-
-
-
-
-
-
-
-
 /* New Unread */
 .bar-30k2ka.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.pc-bar.pc-flexCenter.pc-flex.pc-justifyCenter.pc-alignCenter.unreadBar-3YD_k9.pc-unreadBar.unread-1xRYoj.active-1SSsBb.pc-unread.pc-active {
   border-radius: 50px;
@@ -1468,6 +1455,14 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
   color: white;
 }
 /* Channel Names */
+.children-Bmpf2Q.pc-children {
+  pointer-events: none;
+  z-index: -1;
+}
+.children-Bmpf2Q.da-children {
+  pointer-events: none;
+  z-index: -1;
+}
 .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
   color: white;
   font-size: 16px;
@@ -1482,8 +1477,6 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 .nameHoveredText-1uO31y.name-3M0b8v.overflowEllipsis-jeThUf.da-nameHoveredText.da-name.da-overflowEllipsis {
   transition: all 0.2s;
 }
-
-
 .theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX, .theme-dark .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX, .theme-light .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX {
     color: transparent;
 }
@@ -1491,22 +1484,24 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
     padding: 7px 0px 7px 0px;
     margin-left: -25px;
     transition: 0.5s all;
+    z-index: 30;
 }
 .name-3_Dsmg.pc-name:hover {
     margin-left: -15px;
     transition: 0.5s all;
+    z-index: 30;
 }
-
 .name-3_Dsmg.da-name {
     padding: 7px 0px 7px 0px;
     margin-left: -25px;
     transition: 0.5s all;
+    z-index: 30;
 }
 .name-3_Dsmg.da-name:hover {
     margin-left: -15px;
     transition: 0.5s all;
+    z-index: 30;
 }
-
 /* Channel Selected */
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
   background-color: rgba(0, 0, 0, 0.50);
@@ -1514,6 +1509,12 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 }
 .actionIcon-2Hi9ZG {
   opacity: 1;
+}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU {
+  background-color: rgba(0, 0, 0, 0.10);
 }
 /* Channel Hover */
 .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
