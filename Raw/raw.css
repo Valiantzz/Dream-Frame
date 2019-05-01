@@ -2424,3 +2424,63 @@ button#dl-log-button {
 textarea.textArea-2Spzkt.da-textArea.textAreaForm-18s4EO.textArea-2Spzkt.da-textAreaForm.da-textArea.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.da-scrollbarGhostHairline.da-scrollbar {
   margin-left: 115px;
 }
+
+.theme-light {
+    visibility: hidden;
+}
+.theme-light button.button-2b6hmh.pc-button.button-38aScr.pc-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.pc-grow {
+    visibility: visible;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.theme-dark button.button-2b6hmh.pc-button.button-38aScr.pc-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.pc-grow {
+    visibility: visible;
+    position: unset;
+    bottom: auto;
+    left: auto;
+    margin-left: 16px;
+}
+.theme-light .flex-1xMQg5.flex-1O1GKY.pc-flex.pc-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix.pc-spacer.pc-firefoxFixScrollFlex::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-image: url(https://i.imgur.com/87cfVRa.png);
+    visibility: visible !important;
+    background-size: cover;
+}
+.standardSidebarView-3F1I7i.pc-standardSidebarView {
+    visibility: visible;
+}
+
+
+.theme-light button.button-2b6hmh.da-button.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
+    visibility: visible;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.theme-dark button.button-2b6hmh.da-button.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
+    visibility: visible;
+    position: unset;
+    bottom: auto;
+    left: auto;
+    margin-left: 16px;
+}
+.theme-light .flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix.da-spacer.da-firefoxFixScrollFlex::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-image: url(https://i.imgur.com/87cfVRa.png);
+    visibility: visible !important;
+    background-size: cover;
+}
+
