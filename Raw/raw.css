@@ -88,8 +88,14 @@ a.inner-1V3pNb.da-inner.inner-1W0Bkn.da-inner.stop-animation {
 .guild-1EfMGQ .avatar-S_nsxk .inner-1V3pNb {
   border-radius: var(--servericonbr);
 }
-.image-33JSyf, .wrapper-2F3Zv8 { /* Make sure to add Fallback */
+.image-33JSyf, .wrapper-2F3Zv8 {
   border-radius: var(--avatarbr);
+}
+.container-2VW0UT.elevationHigh-1PneE4.pc-container.pc-elevationHigh {
+  border-radius: var(--buttonsbr);
+}
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+  border-radius: var(--buttonsbr);
 }
 button.secondaryButton-BIo-2g.pc-secondaryButton.button-38aScr.pc-button.lookFilled-1Gx00P.colorPrimary-3b3xI6.sizeXlarge-2yFAlZ.grow-q77ONN.pc-grow {
   border-radius: var(--buttonsbr);
@@ -362,10 +368,83 @@ background-color: var(--macOSClose);
   background-color: rgba(0, 0, 0, 0.75);
 }
 .content-1-zrf2.pc-content {
-  opacity: 0;
+  opacity: 1;
 }
 .content-1-zrf2.da-content {
-  opacity: 0;
+  opacity: 1;
+}
+.problemsText-1Yx-Kl.pc-problemsText {
+  visibility: hidden;
+}
+a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHover.twitterLink-3NsWMp.links-3Ldd4A.pc-twitterLink.pc-links {
+  visibility: hidden;
+}
+a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHover.statusLink-gFXhrL.links-3Ldd4A.pc-statusLink.pc-links {
+  visibility: hidden;
+}
+.problemsText-1Yx-Kl.da-problemsText {
+  visibility: hidden;
+}
+a.anchor-3Z-8Bb.da-anchor.anchorUnderlineOnHover-2ESHQB.da-anchorUnderlineOnHover.twitterLink-3NsWMp.links-3Ldd4A.da-twitterLink.da-links {
+  visibility: hidden;
+}
+a.anchor-3Z-8Bb.da-anchor.anchorUnderlineOnHover-2ESHQB.da-anchorUnderlineOnHover.statusLink-gFXhrL.links-3Ldd4A.da-statusLink.da-links {
+  visibility: hidden;
+}
+.problems-3mgf6w {
+  top: 0;
+  height: 100%;
+  z-index: -2;
+}
+.problems-3mgf6w.pc-problems.slideIn-sCvzGz.pc-slideIn::before {
+  background-image: var(--custombackground);
+  background-size: cover;
+  filter: brightness(0.1) blur(20px);
+  content: "";
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  animation: 15s bbul ease-in-out;
+}
+.problems-3mgf6w.da-problems.slideIn-sCvzGz.da-slideIn::before {
+  background-image: var(--custombackground);
+  background-size: cover;
+  filter: brightness(0.1) blur(20px);
+  content: "";
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  animation: 15s bbul ease-in-out;
+}
+@keyframes bbul {
+  0% {
+    opacity: 0;
+    background-image: var(--custombackground);
+    background-size: cover;
+    filter: brightness(0.3) blur(0px);
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    opacity: 1;
+    background-image: var(--custombackground);
+    background-size: cover;
+    filter: brightness(0.1) blur(20px);
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
 }
 /* - */
 /* App */
@@ -1019,6 +1098,13 @@ border-radius: 50px;
   background-image: none;
   border-color: transparent;
 }
+/* failed */
+.isFailed-19WM0A, .isFailed-19WM0A .hljs, .isFailed-19WM0A a, .isFailed-19WM0A code.inline, .theme-dark .isFailed-19WM0A, .theme-light .isFailed-19WM0A {
+  color: white;
+  background: red;
+  border-radius: 5px;
+  padding: 10px;
+}
 /* Join message with green arrow */
 .icon-2Po-VO {
   background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/180/waving-hand-sign_1f44b.png) !important;
@@ -1079,6 +1165,26 @@ span.spinner-2enMB9.da-spinner.ellipsis-19qdx6.da-ellipsis {
   border-color: transparent;
 }
 /* Text Box| */
+.buttons-205you {
+  width: 75px;
+}
+.contents-18-Yxp.pc-contents.button-3AYNKb.pc-button.button-2vd_v_.pc-button {
+  visibility: hidden;
+}
+button.buttonWrapper-1ZmCpA.pc-buttonWrapper.button-38aScr.pc-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.pc-grow {
+  visibility: hidden;
+  width: 0px;
+}
+.contents-18-Yxp.da-contents.button-3AYNKb.da-button.button-2vd_v_.da-button {
+  visibility: hidden;
+}
+button.buttonWrapper-1ZmCpA.da-buttonWrapper.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
+  visibility: hidden;
+  width: 0px;
+}
+.gifPickerIcon-132le6 {
+  visibility: visible;
+}
 .theme-dark .inner-zqa7da {
   background-color: transparent;
 }
@@ -1588,6 +1694,19 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
   color: transparent;
 }
 /* Voice Channel */
+.wrapper-pZmgj4 {
+  color: white;
+}
+.users-i_3-kL {
+  background-color: var(--accentcolor);
+  opacity: 0.7;
+}
+.total-3tKGEB {
+  background-color: var(--accentcolor);
+}
+.total-3tKGEB:after {
+  border-right-color: var(--accentcolor);
+}
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
   background-color: rgba(0, 0, 0, 0.25) !important;
   border-radius: 50px !important;
