@@ -1,5 +1,5 @@
 v2.45
- - The full screen status picker is back in business :YAY: 
+ - The full screen status picker is back in business
  - Transparency fixed in some areas
  - Border Radius was fixed
  - Voice channels updated(no, not the icon ;w;)
@@ -47,7 +47,7 @@ v2.42
  - Spotify Modal themed (Powercord)
  - Upload menu re-themed
  - Listen Along(Spotify) has been re-themed
- - In welcome channels, the green arrow has been replaced with :wave: emoji
+ - In welcome channels, the green arrow has been replaced with the wave emoji
  - Activity has been re-themed
  - Settings themed (Powercord)
  - Fallback system has been updated
@@ -189,7 +189,7 @@ v2.42
  - Some codes from the Lite version has been copied to this version
  
  v1.74
- - Version number has been moved to :grey_question: Help modal
+ - Version number has been moved to the help modal
  - Small tweaks
  - Title bar was fixed
  - Some hover effects were fixed
@@ -281,7 +281,7 @@ v2.42
  v1.4
  - Disconnect button and connection buttons are fixed AGAIN
  - Version number fixed and moved under Mute, Deaf, and Settings icons
- - You can now see who is typing, even your DADDY! :blobguns: 
+ - You can now see who is typing, even your DADDY! 
  - Text in settings are now more white to make them more readable
  - Tooltip is round and sexy again
  - Friends icon was fixed
@@ -310,7 +310,7 @@ v2.42
  - Transparent usernames fixed
  - Emoji button in light theme fixed
  - Right click menus now as an Android Oreo style
- - Members tab fixed :IAmGay:
+ - Members tab fixed
  - Titlebar fixed
  
  v1.1
