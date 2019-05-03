@@ -2600,7 +2600,20 @@ textarea.textArea-2Spzkt.da-textArea.textAreaForm-18s4EO.textArea-2Spzkt.da-text
 
 /* Status Picker */
 /*Status*/
+
+@keyframes sp {
+  0% {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .popouts-3dRSmE .popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z {
+  animation: 0.3s sp ease-in-out;
   position:fixed;
   display:flex;
   align-items:center;
