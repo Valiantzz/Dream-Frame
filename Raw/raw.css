@@ -1,15 +1,6 @@
 @import url("https://raw.githack.com/dream-frame/Covers/master/ProfileBackgrounds.css");
 @import url("https://raw.githack.com/dream-frame/Fallback-System/master/Fallback.theme.css");
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
-@import url('https://satoru8.github.io/Addons/FullScreenStatusPicker/fullScreenStatusPicker.css'); /* Thanks to (Satoru#4997 [135913674538745856]) */
-
-:root {
-   /* Full Screen Status Picker - Credit goes to (Satoru#4997 [135913674538745856]) */
-   --sPickerOnlineBGColour: var(--online);
-  --sPickerIdleBGColour: var(--idle);
-  --sPickerDNDBGColour: var(--dnd);
-  --sPickerInviBGColour: var(--offline);
-}
 
 /* - */
 /* Animation */
@@ -2607,3 +2598,98 @@ textarea.textArea-2Spzkt.da-textArea.textAreaForm-18s4EO.textArea-2Spzkt.da-text
     background-size: cover;
 }
 
+/* Status Picker */
+/*Status*/
+.popouts-3dRSmE .popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z {
+  position:fixed;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100% !important;
+  height:100% !important;
+  top:-1px !important;
+  left:8px !important;
+  transform:none !important;
+  overflow:visible !important;
+  z-index:3001 !important;
+  cursor: default;
+  background:rgba(0,0,0,0.65) !important;
+}
+.popouts-3dRSmE .popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z .menu-Sp6bN1.alt-3btY0e {
+  display:flex;
+  width:fit-content;
+  box-shadow:none;
+  background:transparent;
+  border-radius:0;
+}
+.popouts-3dRSmE .popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z .menu-Sp6bN1.alt-3btY0e .item-1GzJrl {
+  background:transparent !important;
+  font-size:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100px !important;
+  height:100px !important;
+}
+.popouts-3dRSmE .popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .status-3fQvEa {
+  margin:0;
+  height:50px;
+  width:50px;
+}
+.popouts-3dRSmE .popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .status-3fQvEa:hover {
+  transform: scale(1.2);
+  transition: all 0.2s;
+}
+.helper-2c73HK.pc-helper {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+.helper-2c73HK.da-helper {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+.alt-3btY0e .item-1GzJrl:last-child .helper-2c73HK {
+  margin-bottom: 0px;
+}
+.online-2S838R.status-oxiHuE.pc-online.pc-status.large-3ChYtB.pc-large.status-3fQvEa.pc-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--online);
+}
+.online-2S838R.status-oxiHuE.da-online.da-status.large-3ChYtB.da-large.status-3fQvEa.da-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--online);
+}
+.idle-3DEnRT.status-oxiHuE.pc-idle.pc-status.large-3ChYtB.pc-large.status-3fQvEa.pc-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--idle);
+}
+.idle-3DEnRT.status-oxiHuE.da-idle.da-status.large-3ChYtB.da-large.status-3fQvEa.da-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--idle);
+}
+.dnd-1_xrcq.status-oxiHuE.pc-dnd.pc-status.large-3ChYtB.pc-large.status-3fQvEa.pc-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--dnd);
+}
+.dnd-1_xrcq.status-oxiHuE.da-dnd.da-status.large-3ChYtB.da-large.status-3fQvEa.da-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--dnd);
+}
+.invisible-1kp8Z0.status-oxiHuE.pc-invisible.pc-status.large-3ChYtB.pc-large.status-3fQvEa.pc-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--offline);
+}
+.invisible-1kp8Z0.status-oxiHuE.da-invisible.da-status.large-3ChYtB.da-large.status-3fQvEa.da-status {
+    transition: all 0.2s;
+    cursor: pointer;
+  background: var(--offline);
+}
