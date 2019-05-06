@@ -1693,6 +1693,16 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 .colorMutedText-36M8WR, .colorMutedVoice-3ghIuw {
   color: transparent;
 }
+/* NSFW Icons */
+.icon-1_QxNX[name="Warning"] {
+  color: white;
+  margin-right: 34px;
+}
+/* Voice Icons */
+.icon-1_QxNX[name="Speaker"] {
+  color: white;
+  margin-right: 34px;
+}
 /* Voice Channel */
 .wrapper-pZmgj4 {
   color: white;
