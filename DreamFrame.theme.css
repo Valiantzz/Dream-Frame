@@ -55,7 +55,8 @@
     
     /* Server Colors */
     --serverselected: red !important;
-    
+    --serverunread: white !important;
+
     /* Home Icon */
     --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
     --homeiconsize: 40px;
