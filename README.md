@@ -2,16 +2,12 @@
 ![image](https://i.imgur.com/WGv32qu.jpg)
 Bring a sexy translucent look to Discord with customizable options! BetterDiscord theme.
 # Downloads
-* Download for [BetterDiscord](https://cdn.discordapp.com/attachments/540730831455649823/567560729322848276/DreamFrame.theme.css)
 * Download for [Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Dream%20Frame%20for%20Powercord.zip)
 
 Don't have a powerful computer? Try [Dream Frame Lite](https://github.com/dream-frame/Lite)!
 
-
 # Helpful Links
 * How to install Powercord: https://github.com/powercord-org/powercord/wiki/Installation
-* How to install BetterDiscord: https://github.com/rauenzi/BetterDiscordApp#installation
-* How to install BeautifulDiscord: https://github.com/leovoel/BeautifulDiscord#installing
 # Donation
 Donate: https://Paypal.me/CorbsEditor
 # Exploring Dream Frame
